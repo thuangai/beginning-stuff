@@ -1,7 +1,7 @@
 import random
 
 computer_choice = random.choice(['rock','paper','scissors'])
-player_choice = input('rock/paper/scissors?')
+player_choice = input('rock/paper/scissors? ')
 print(computer_choice)
 if player_choice == computer_choice:
     print('draw')
