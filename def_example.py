@@ -5,4 +5,4 @@ def rectangle(w,h):
 dai=int(input('wide in cm '))
 cao=int(input('high in cm '))
 cv,dt=rectangle(dai,cao)
-print()   
+print(cv ,dt)   
